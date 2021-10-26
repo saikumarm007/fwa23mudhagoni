@@ -15,7 +15,7 @@ var clz32;
 
 router.get('/', function(req, res, next) {
 
-    rno = Math.round(Math.random()*(100-1)+1);
+    rno = Math.random()*(100-1)+1;
 
     hypot = Math.hypot(rno);
 
